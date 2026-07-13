@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - WorkHub</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🔐 WorkHub</h1>
+
+        <p>Iniciar sesión</p>
+
+        <form action="/admin/login" method="POST">
+
+            <input
+                type="text"
+                name="username"
+                placeholder="Usuario"
+                required>
+
+            <br><br>
+
+            <input
+                type="password"
+                name="password"
+                placeholder="Contraseña"
+                required>
+
+            <br><br>
+
+            <button type="submit">
+                Entrar
+            </button>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
